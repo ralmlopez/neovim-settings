@@ -9,19 +9,19 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Comments
-    Plug 'tpope/vim-commentary'
+    "Plug 'tpope/vim-commentary'
     " Change dates fast
-    Plug 'tpope/vim-speeddating'
+"   Plug 'tpope/vim-speeddating'
     " Convert binary, hex, etc..
-    Plug 'glts/vim-radical'
+"   Plug 'glts/vim-radical'
     " Repeat stuff
-    Plug 'tpope/vim-repeat'
+"   Plug 'tpope/vim-repeat'
     " Text Navigation
-    Plug 'unblevable/quick-scope'
+"   Plug 'unblevable/quick-scope'
     " Useful for React Commenting 
-    Plug 'suy/vim-context-commentstring'
+"   Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
-    Plug 'RRethy/vim-illuminate'
+"   Plug 'RRethy/vim-illuminate'
 
     if exists('g:vscode')
       " Easy motion for VSCode
@@ -29,73 +29,73 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     else
 
     " Sneak
-    Plug 'justinmk/vim-sneak'
+"   Plug 'justinmk/vim-sneak'
     " Surround
-    Plug 'tpope/vim-surround'
+"   Plug 'tpope/vim-surround'
     " Files
-    Plug 'tpope/vim-eunuch'
+"   Plug 'tpope/vim-eunuch'
     " Have the file system follow you around
-    Plug 'airblade/vim-rooter'
+"   Plug 'airblade/vim-rooter'
     " auto set indent settings
-    Plug 'tpope/vim-sleuth'
+"   Plug 'tpope/vim-sleuth'
     " Closetags
-    Plug 'alvan/vim-closetag'
+"   Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'arcticicestudio/nord-vim'
+"   Plug 'arcticicestudio/nord-vim'
     " Status Line
-    Plug 'kevinhwang91/rnvimr'
+"   Plug 'kevinhwang91/rnvimr'
     " FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
+"   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"   Plug 'junegunn/fzf.vim'
 
     " Git
-    Plug 'airblade/vim-gitgutter'
-    Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
-    Plug 'junegunn/gv.vim'
-    Plug 'rhysd/git-messenger.vim'
+"   Plug 'airblade/vim-gitgutter'
+"   Plug 'tpope/vim-fugitive'
+"   Plug 'tpope/vim-rhubarb'
+"   Plug 'junegunn/gv.vim'
+"   Plug 'rhysd/git-messenger.vim'
     " Terminal
-    Plug 'voldikss/vim-floaterm'
+"   Plug 'voldikss/vim-floaterm'
     " Start Screen
-    Plug 'mhinz/vim-startify'
+"   Plug 'mhinz/vim-startify'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
     " Zen mode
-    Plug 'junegunn/goyo.vim'
+"   Plug 'junegunn/goyo.vim'
     " Snippets
-    Plug 'honza/vim-snippets'
-    Plug 'mattn/emmet-vim'
+"   Plug 'honza/vim-snippets'
+"   Plug 'mattn/emmet-vim'
     " Interactive code
-    Plug 'metakirby5/codi.vim'
+"   Plug 'metakirby5/codi.vim'
     " Better tabline
-    Plug 'mg979/vim-xtabline'
+"   Plug 'mg979/vim-xtabline'
     " undo time travel
-    Plug 'mbbill/undotree'
+"   Plug 'mbbill/undotree'
     " Find and replace
-    Plug 'ChristianChiarulli/far.vim'
+"   Plug 'ChristianChiarulli/far.vim'
     " Plug 'brooth/far.vim'
     " Auto change html tags
-    Plug 'AndrewRadev/tagalong.vim'
+"   Plug 'AndrewRadev/tagalong.vim'
     " live server
-    Plug 'turbio/bracey.vim'
+"   Plug 'turbio/bracey.vim'
     " Smooth scroll
-    Plug 'psliwka/vim-smoothie'
+"   Plug 'psliwka/vim-smoothie'
     " async tasks
-    Plug 'skywind3000/asynctasks.vim'
-    Plug 'skywind3000/asyncrun.vim'
+"   Plug 'skywind3000/asynctasks.vim'
+"   Plug 'skywind3000/asyncrun.vim'
     " Swap windows
-    Plug 'wesQ3/vim-windowswap'
+"   Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+"   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     " Easily Create Gists
-    Plug 'mattn/vim-gist'
-    Plug 'mattn/webapi-vim'
+"   Plug 'mattn/vim-gist'
+"   Plug 'mattn/webapi-vim'
     " Better Whitespace
-    Plug 'ntpeters/vim-better-whitespace'
+"   Plug 'ntpeters/vim-better-whitespace'
     " Multiple Cursors
     " TODO add this back in change from C-n
     " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-    Plug 'moll/vim-bbye'
+"   Plug 'moll/vim-bbye'
 
 
     " Intellisense like VSCode plugin
@@ -111,21 +111,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'frazrepo/vim-rainbow'
 
     " C#
-    Plug 'OmniSharp/omnisharp-vim'
+"   Plug 'OmniSharp/omnisharp-vim'
 
     " Check syntax
-    Plug 'dense-analysis/ale'
+"   Plug 'dense-analysis/ale'
 
     " Status footer
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
     " Icons for various plug ins
-    Plug 'ryanoasis/vim-devicons'
+    "Plug 'ryanoasis/vim-devicons'
   
     " Theme
-    Plug 'christianchiarulli/onedark.vim'
-    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+    "Plug 'christianchiarulli/onedark.vim'
+    "Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
   endif
   
