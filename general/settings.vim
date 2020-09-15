@@ -31,10 +31,14 @@ set nowritebackup                       " This is recommended by coc
 set shortmess+=c                        " Don't pass messages to |ins-completion-menu|.
 set signcolumn=yes                      " Always show the signcolumn, otherwise it would shift the text each time
 set updatetime=300                      " Faster completion
-set timeoutlen=100                      " By default timeoutlen is 1000 ms
+set timeoutlen=300                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set scrolloff=3                         " Leave space when using zt, zb commands
 set incsearch
-setlocal colorcolumn=80                 " Show a color block for 80th column
+set autoread
+hi ColorColumn ctermbg=8 guibg=DarkGray " Set color
+setlocal colorcolumn=120                " Show a color block for 120th column
 
-let $RTP=split(&runtimepath, ',')[0]
+let $RTP=split(&runtimepath, ',')[0]    " Set variable to access nvim configuration path easily
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣ " Chars to use to show non printable characters
+
