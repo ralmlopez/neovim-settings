@@ -27,6 +27,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " For autoread to work properly - used by git plugins too
     Plug 'tmux-plugins/vim-tmux-focus-events'   
 
+    " Intellisense like VSCode plugin
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " Better Syntax Support
+    Plug 'sheerun/vim-polyglot'
+
+    " C#
+    Plug 'OmniSharp/omnisharp-vim'
+
+    " Check syntax
+    Plug 'dense-analysis/ale'
+
 call plug#end()
 
 " Automatically install missing plugins on startup

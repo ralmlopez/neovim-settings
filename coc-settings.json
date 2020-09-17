@@ -1,0 +1,29 @@
+{
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+  "diagnostic.displayByAle": true,
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.icon.enableVimDevicons": false,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  "emmet.includeLanguages": {
+    "razor":"html",
+    "aspnetcorerazor":"html",
+    "HTML (Eex)": "html"
+  }
+}
