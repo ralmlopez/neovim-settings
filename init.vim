@@ -8,7 +8,8 @@ source $HOME/.config/nvim/plug-config/vim-airline.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/vim-gutter.vim
 source $HOME/.config/nvim/plug-config/git-messenger.vim
-
+source $HOME/.config/nvim/plug-config/vim-startify.vim
+source $HOME/.config/nvim/plug-config/coc-explorer.vim
 
 noremap <F5> :set list!<CR>
 inoremap <F5> <C-o>:set list!<CR>

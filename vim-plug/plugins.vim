@@ -39,6 +39,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Check syntax
     Plug 'dense-analysis/ale'
 
+    " Start Screen
+    Plug 'mhinz/vim-startify'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
