@@ -33,6 +33,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
 
+    " Auto pairs for '(' '[' '{'
+    Plug 'jiangmiao/auto-pairs'
+
     " C#
     Plug 'OmniSharp/omnisharp-vim'
 
@@ -42,7 +45,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Start Screen
     Plug 'mhinz/vim-startify'
 
+    " Themes
+    Plug 'hzchirs/vim-material'
 call plug#end()
+
 
 " Automatically install missing plugins on startup
 autocmd VimEnter *

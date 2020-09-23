@@ -10,7 +10,23 @@ source $HOME/.config/nvim/plug-config/vim-gutter.vim
 source $HOME/.config/nvim/plug-config/git-messenger.vim
 source $HOME/.config/nvim/plug-config/vim-startify.vim
 source $HOME/.config/nvim/plug-config/coc-explorer.vim
+source $HOME/.config/nvim/themes/vim-material.vim
+
+let g:OmniSharp_highlight_groups = {
+\ 'Comment': 'NonText',
+\ 'FieldName' : 0,
+\ 'LocalName' : 0,
+\ 'XmlDocCommentName': 'Identifier',
+\ 'XmlDocCommentText': 'NonText'
+\}
 
 noremap <F5> :set list!<CR>
 inoremap <F5> <C-o>:set list!<CR>
 cnoremap <F5> <C-c>:set list!<CR>
+
+nnoremap <Leader>bn :bn<CR>
+nnoremap  <Leader>bp :bp<CR>
+
+" Better indenting
+vnoremap < <gv
+vnoremap > >gv

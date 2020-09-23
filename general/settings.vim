@@ -13,7 +13,7 @@ set formatoptions-=cro                  " Stop newline continuation of comments
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
-set t_Co=256                            " Support 256 colors
+"set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
 set tabstop=2                           " Insert 2 spaces for a tab
 set shiftwidth=2                        " Change the number of space characters inserted for indentation
@@ -36,9 +36,10 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 set scrolloff=3                         " Leave space when using zt, zb commands
 set incsearch
 set autoread
+set noswapfile
 hi ColorColumn ctermbg=8 guibg=DarkGray " Set color
 setlocal colorcolumn=120                " Show a color block for 120th column
 
 let $RTP=split(&runtimepath, ',')[0]    " Set variable to access nvim configuration path easily
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣ " Chars to use to show non printable characters
-
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
