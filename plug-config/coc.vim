@@ -153,4 +153,4 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " Install extensions automatically
-let g:coc_global_extensions=['coc-omnisharp']
+let g:coc_global_extensions=['coc-omnisharp', 'coc-explorer']
